@@ -1,0 +1,9 @@
+{
+    "secure": false,
+    "certFile": "",
+    "keyFile": "",
+    "port": 1323,
+    "upstream": [
+        "http://localhost:8888"
+    ]
+}

@@ -1,0 +1,13 @@
+[Unit]
+Description=Advanced key-value store
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/proxy-keos /etc/proxy-keos/config.json
+Restart=always
+User=proxy-keos
+Group=proxy-keos
+
+[Install]
+WantedBy=multi-user.target
